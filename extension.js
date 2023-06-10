@@ -17,7 +17,7 @@ function updateGpuUsageAndMemory() {
     let [gpuUsage, memoryUsedInMiB] = stdout.trim().split(', ');
     let memoryUsedInGB = parseFloat(memoryUsedInMiB) / 1024;
 
-    statusBar.text = `GPU: ${gpuUsage}%,${memoryUsedInGB.toFixed(2)} GB`;
+    statusBar.text = `GPU: ${gpuUsage}%, ${memoryUsedInGB.toFixed(2)} GB`;
     statusBar.show();
   });
 }
