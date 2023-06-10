@@ -1,0 +1,26 @@
+{
+	"name": "nvidia-gpu",
+	"description": "Nvidia GPU usage",
+	"version": "0.0.1",
+	"publisher": "Leonardo16",
+	"icon": "icon.png",
+	"displayName": "Nvidia GPU usage",
+	"repository": "https://github.com/Leonardo16AM/Codeforces-Notifier",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Nvidia GPU usage",
+			"properties": {}
+		}
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.73.0"
+	}
+}
