@@ -1,4 +1,5 @@
 # Nvidia GPU Usage and Memory VS Code Extension
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/leonardo16.nvidia-gpu?color=green)
 
 This extension displays Nvidia GPU usage and memory usage in the status bar of Visual Studio Code.
 
