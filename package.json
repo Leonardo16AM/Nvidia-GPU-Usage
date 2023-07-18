@@ -1,7 +1,7 @@
 {
 	"name": "nvidia-gpu",
-	"description": "Nvidia GPU usage",
-	"version": "0.0.2",
+	"description": "Shows the GPU usage in the bottom bar",
+	"version": "0.0.4",
 	"publisher": "Leonardo16",
 	"icon": "icon.png",
 	"displayName": "Nvidia GPU usage",
