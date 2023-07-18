@@ -30,4 +30,5 @@ jobs:
       - name: Publish
         env:
           VSCE_TOKEN: ${{ secrets.VSCODE_MARKETPLACE_TOKEN }}
-        run: npx vsce publish --yarn --pat $VSCE_TOKEN
+          run: npx vsce publish --pat $VSCE_TOKEN
+
